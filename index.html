@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/slot.css">
+</head>
+
+<div class="header">
+	<h2>
+		<marquee direction="right" scrollamount="5" behavior="alternate">娛樂城</marquee>
+	</h2>
+</div>
+<div id="debug" class="debug"></div>
+<body>
+	<span>
+		<div class="container-grid">			
+			<img class="left img" src="./img/giphy.gif" alt="machine gif" >			
+			<div class="middle">
+				<div class="slots">
+					<div class="reel"></div>
+					<div class="reel"></div>
+					<div class="reel"></div>
+				</div>
+			</div>
+			<div class="footer">
+					<label for="bet-input text">下注金額：</label>
+					<input type="number text" id="bet-input" min="1" value="10">
+					<button id="bet-button" >下注</button>
+					<p>您的點數：<span id="credits-display"> --</span></p>
+					<p>您的賭注：<span id="is_balance"> --</span></p>  
+					<p>累積獎金：<span id="jackpot"> --</span></p>
+				</div>
+				<script src="./js/machine.js"></script>
+	
+		</div>
+	</span>
+
+	<!--<div id="debug" class="debug"></div>-->
+	<script src="./js/reel.js"></script> <!-- 引用 JavaScript 檔案 -->
+
+</body>
+
+</html>
