@@ -1,9 +1,0 @@
-// 取得按鈕元素
-var myButton = document.getElementById('myButton');
-
-// 監聽按鈕的點擊事件
-myButton.addEventListener('click', function() {
-  // 點擊後執行的程式碼
-  console.log('按鈕被點擊了！');
-  // 在這裡可以寫下你想要執行的任何程式碼
-});
